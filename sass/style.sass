@@ -186,7 +186,7 @@ nav.menu ul li a
     line-height: 20px
     letter-spacing: 1.60px
 
-.contact-sales:before
+.contact-sales::before
     content: ''
     position: absolute
     width: 172px
@@ -316,6 +316,12 @@ nav.menu ul li a
 
 .section-video
     width: 970px
+    margin: 0 auto
+
+.table
+    display: flex
+    align-items: center
+    width: 100%
     height: 601px
     border-radius: 32px
     border: 1px #E4E4E4 solid
@@ -323,16 +329,55 @@ nav.menu ul li a
     margin-top: 120px
     position: relative
 
-.section-video::after
+.table::before
     content: ''
-    position: absolute
+    // position: absolute
     width: 13px
     height: 13px
     border-radius: 9999px
-    border: 1px red solid //#E4E4E4
-    top: 50%
+    border: 1px #E4E4E4 solid
+    margin: 0 9px 0 8px
+    box-sizing: border-box
     
+    
+.table::after
+    content: ''
+    // position: absolute
+    width: 35px
+    height: 35px
+    border-radius: 9999px
+    border: 1px #E4E4E4 solid
+    margin: 0 14px 0 21px
+    box-sizing: border-box
 
+.play
+    position: absolute
+    width: 120px
+    height: 120px
+    left: 42%
 
+.video-text-title
+    color: #262A3F
+    font-size: 40px
+    font-family: Playfair Display
+    font-weight: 400
+    line-height: 48px
+
+.video-text-title-highlight
+    color: #85BBB1
+    font-size: 40px
+    font-family: Playfair Display
+    font-style: italic
+    font-weight: 400
+    line-height: 48px
+
+.video-text-description
+    width: 897px
+    opacity: 0.80
+    color: #262A3F
+    font-size: 18px
+    font-family: Lato
+    font-weight: 300
+    line-height: 26px
 
 /* END section-video */
