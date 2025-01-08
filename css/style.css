@@ -129,7 +129,6 @@ nav.menu ul li a {
   display: flex;
   max-width: 770px;
   height: 580px;
-  left: 400px;
   opacity: 0.9;
   background: white;
   margin-left: -100px;
@@ -409,3 +408,19 @@ nav.menu ul li a {
 }
 
 /* END section-video */
+.section-promises {
+  display: flex;
+  align-items: center;
+}
+
+.promises-list {
+  display: flex;
+  max-width: 770px;
+  height: 450px;
+  opacity: 0.9;
+  background: white;
+  margin-left: -100px;
+  z-index: 1;
+}
+
+/* section promises */
